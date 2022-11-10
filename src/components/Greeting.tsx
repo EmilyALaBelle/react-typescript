@@ -3,7 +3,7 @@ interface GreetingProps {
     lastName: string,
 }
 
-export default function Greeting({firstName, lastName}: GreetingProps){
+export default function Greeting({ firstName, lastName }: GreetingProps) {
     return (
         <p>Welcome {firstName} {lastName}.</p>
     )

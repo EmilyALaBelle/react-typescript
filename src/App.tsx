@@ -24,7 +24,7 @@ function App() {
       <header className="App-header">
 
         <h1>Hello Typescript</h1>
-        <AboutMe person={me}/>
+        <AboutMe person={me} />
         <Counter />
         <Greeting firstName='Emily' lastName='LaBelle' />
         <PhotoCard card={card} />

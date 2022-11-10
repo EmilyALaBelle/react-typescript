@@ -1,4 +1,4 @@
-export interface PhotoCardType{
+export interface PhotoCardType {
     photo: string,
     user: string,
     mainPhoto: string,
